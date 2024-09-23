@@ -414,6 +414,9 @@ transition: all 0.5s ease;
     font-size: 28px;
     color: var(--main-color);
 }
+.main-d a{
+    text-decoration: none;
+}
 .scroll{
     position: fixed;
     bottom: 2.2rem;
