@@ -153,7 +153,8 @@ span{
 /* adding grey background behind the header scetion sticky class doesnt exist until
 Yscroll> 80  */
 /* also in initial position the home and nev icon are not at corners of window due to padding being 14% which is more than 12 px since padding decreases
-the icons move left and right giving the effect of spreading */
+the icons move left and right giving the effect of spreading but this effect is then removed due to some other codes working later on
+most probably in the responsive part*/
 header.sticky{
     padding: 12px;
     background: var(--other-color);
